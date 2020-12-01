@@ -15,10 +15,7 @@
 </p>
 
 ---
-  
 *Bem-vindos a minha área de projetos, aqui é onde colocarei todos os projetos que eu vá fazendo, praticando e testando.*
----
-
 ---
 ### 📑 Sites e Outros
 
