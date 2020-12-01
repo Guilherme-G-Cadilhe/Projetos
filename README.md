@@ -1,2 +1,2 @@
-# Projetos Sites e Afins
-Projetos, Testes e Exercícios de Front-End, utilizando HTML, CSS , JavaScript, etc.
+# Projetos
+Projetos, Testes e Exercícios relacionados aos meus estudos. 
