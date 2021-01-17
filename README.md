@@ -18,11 +18,23 @@
 ---
 <br>
 
+### 2- 🏷️ Hotel Paraíso
+
+<img width="300" src="https://puu.sh/H7SJ3/55d42873e2.jpg"> <img width="300" src="https://puu.sh/H7SK5/578909a5e4.jpg"> <img width="300" src="https://puu.sh/H7SKR/66799cc0ce.jpg">
+
+
+> <a href="https://www.evernote.com/l/As9udb353AxBvYQEnkRMkaN-yZvN85h8EGc/"> 🧱 Ilustrações</a> <br>
+- **Objetivo:** *Criar Sites Responsivos com Flexbox para praticar, entender  e aprender  seus usos.*
+  
+
+<br>
+
+
 ### 1- 🏷️ Blog Produtos
 
 <img width="300" src="http://puu.sh/GTcG2/c95b3d4fec.jpg"> <img width="300" src="http://puu.sh/GTcHf/ed2f80eb71.jpg"> <img width="300" src="http://puu.sh/GTcI2/bbffb13c6b.jpg">
 
 
 > <a href="https://www.evernote.com/l/As8iGhW0jtdGW5e7cmfRL7oiqouWZuStQYE/"> 🧱 Ilustrações</a> <br>
-- **Objetivo:** *Entender,Aprender e praticar criação de Sites com FLEXBOX.*
+- **Objetivo:** *Criar Sites Responsivos com Flexbox para praticar, entender  e aprender  seus usos.*
   
