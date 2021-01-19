@@ -1,0 +1,153 @@
+/*RESET*/
+* {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Main*/
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.instagram {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+/*ESQUERDA*/
+.esquerda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.esquerda img {
+  width: 65%;
+}
+/*DIREITA*/
+.direita {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+  min-height: 34rem;
+}
+/*GRUPOS*/
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 0;
+  margin: 17px 0;
+  border: 1px solid lightgray;
+}
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.instalogo {
+  height: 3.5rem;
+}
+.fotoperfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.insta-login {
+  background-color: #0095f6;
+  color: #fff;
+  margin-top: 15px;
+  padding: 6px;
+  border-radius: 6px;
+}
+.insta-login:hover {
+  font-weight: bold;
+}
+.insta-logout {
+  color: #0095f6;
+  margin-top: 15px;
+}
+.insta-logout:hover {
+  font-weight: bold;
+}
+/*DIREITA CENTRO*/
+.not-account {
+  color: rgb(160, 160, 160);
+}
+.link-blue {
+  color: #0095f6;
+}
+.link-blue:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+/*DIREITA BAIXO*/
+.DireitaBaixo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+.download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+.app-download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+/*Media queries*/
+@media (max-width: 1024px) {
+  .instagram {
+    width: 90%;
+  }
+}
+@media (max-width: 650px) {
+  .instagram {
+    width: 90%;
+  }
+  body {
+    background-color: #fff;
+  }
+  .esquerda {
+    display: none;
+  }
+  .direita {
+    width: 100%;
+  }
+  .group {
+    border: 1px solid transparent;
+  }
+}
