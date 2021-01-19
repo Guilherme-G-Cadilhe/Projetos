@@ -21,7 +21,7 @@
 
 ### 3- 🏷️ Página Inicial Instagram
 
-<img width="300" src="hhttps://puu.sh/H8h3G/d0beccee83.jpg">
+<img width="400" src="https://puu.sh/H8h3G/d0beccee83.jpg">
 
 
 > <a href="https://www.evernote.com/l/As-x8L7cbnBJPr4MRlTVlzvmrGKt_f28lS8/"> 🧱 Fotos</a> <br>
@@ -33,6 +33,7 @@
 ### 2- 🏷️ Hotel Paraíso
 
 <img width="300" src="https://puu.sh/H7SJ3/55d42873e2.jpg"> <img width="300" src="https://puu.sh/H7SK5/578909a5e4.jpg"> <img width="300" src="https://puu.sh/H7SKR/66799cc0ce.jpg">
+
 
 
 > <a href="https://www.evernote.com/l/As9udb353AxBvYQEnkRMkaN-yZvN85h8EGc/"> 🧱 Fotos</a> <br>
