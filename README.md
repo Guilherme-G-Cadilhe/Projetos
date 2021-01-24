@@ -19,13 +19,24 @@
 <br>
 
 
+### 4- 🏷️ Anna Belle
+
+<img width="400" src="https://puu.sh/Ha2vl/c24c54259c.jpg">
+
+
+> <a href="https://www.evernote.com/l/As9ORwINPwxIn4trCeuMJUUIOEKmcglauss/"> 🧱 Fotos</a> <br>
+- **Descrição:** *Refazendo um dos meus primeiros sites, utilizando flexbox. Contém 4 páginas.*
+  
+
+<br>
+
 ### 3- 🏷️ Página Inicial Instagram
 
 <img width="400" src="https://puu.sh/H8h3G/d0beccee83.jpg">
 
 
 > <a href="https://www.evernote.com/l/As-x8L7cbnBJPr4MRlTVlzvmrGKt_f28lS8/"> 🧱 Fotos</a> <br>
-- **Objetivo:** *Criar Sites Responsivos e Dinâmicos com Flexbox, para praticar, entender e aprender seus usos.*
+- **Descrição:** *Criando um Site Responsivo e Dinâmico com Flexbox, para praticar, entender e aprender seus usos.*
   
 
 <br>
@@ -37,7 +48,7 @@
 
 
 > <a href="https://www.evernote.com/l/As9udb353AxBvYQEnkRMkaN-yZvN85h8EGc/"> 🧱 Fotos</a> <br>
-- **Objetivo:** *Criar Sites Responsivos e Dinâmicos com Flexbox, para praticar, entender e aprender seus usos.*
+- **Descrição:** *Criando um Site Responsivo e Dinâmico com Flexbox, para praticar, entender e aprender seus usos.*
   
 
 <br>
@@ -48,5 +59,5 @@
 
 
 > <a href="https://www.evernote.com/l/As8iGhW0jtdGW5e7cmfRL7oiqouWZuStQYE/"> 🧱 Fotos</a> <br>
-- **Objetivo:** *Criar Sites Responsivos e Dinâmicos com Flexbox, para praticar, entender e aprender seus usos.*
+- **Descrição:** *Criando um Site Responsivo e Dinâmico com Flexbox, para praticar, entender e aprender seus usos.*
   
