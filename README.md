@@ -32,7 +32,7 @@
 
 ### 3- 🏷️ Página Inicial Instagram
 
-<img width="400" src="https://puu.sh/H8h3G/d0beccee83.jpg">
+<img width="500" src="https://puu.sh/H8h3G/d0beccee83.jpg">
 
 
 > <a href="https://www.evernote.com/l/As-x8L7cbnBJPr4MRlTVlzvmrGKt_f28lS8/"> 🧱 Fotos</a> <br>
@@ -43,7 +43,7 @@
 
 ### 2- 🏷️ Hotel Paraíso
 
-<img src="GifsAnimados/HotelParaiso.gif"> 
+<img width="480" src="GifsAnimados/HotelParaiso.gif"> 
 
 > <a href="https://www.evernote.com/l/As9udb353AxBvYQEnkRMkaN-yZvN85h8EGc/"> 🧱 Fotos</a> <br>
 - **Descrição:** *Criando um Site Responsivo e Dinâmico com Flexbox, para praticar, entender e aprender seus usos.*
