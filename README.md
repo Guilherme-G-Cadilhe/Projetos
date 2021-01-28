@@ -39,7 +39,7 @@
 
 ### 3- 🏷️ Página Inicial Instagram
 
-<img width="500" src="https://puu.sh/H8h3G/d0beccee83.jpg">
+<img  src="https://media.giphy.com/media/ZUDddil021qb83weLc/giphy.gif">
 
 
 > <a href="https://www.evernote.com/l/As-x8L7cbnBJPr4MRlTVlzvmrGKt_f28lS8/"> 🧱 Fotos</a> <br>
