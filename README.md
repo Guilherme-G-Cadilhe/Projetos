@@ -16,7 +16,12 @@
 ---
 *Projetos, Testes e Exercícios de Front-End, utilizando HTML, CSS , JavaScript, etc.*
 ---
-<br>
+
+
+
+<img width="100" src="https://i.imgur.com/2vK0KFH.png"><details>
+  <summary> <b> Projetos Exercicios e Testes </b> <i>(Clique Aqui para Expandir!)</i> </summary>
+  <br>
 
 ### 5- 🏷️ Hotel Paraíso
 
@@ -67,5 +72,4 @@
 > <a href="https://www.evernote.com/l/As9ORwINPwxIn4trCeuMJUUIOEKmcglauss/"> 🧱 Fotos</a> <br>
 - **Descrição:** *Refazendo um dos meus primeiros exercicios de sites, utilizando flexbox. Contém 4 páginas.*
   
-
-<br>
+  </details>
