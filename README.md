@@ -17,10 +17,17 @@
 *Projetos, Testes e Exercícios de Front-End, utilizando HTML, CSS , JavaScript, etc.*
 ---
 
+<img width="100" src="https://i.imgur.com/c3p3xxu.png"> <b> Projetos Completos </b>
+<details>
+  <summary> <i>(Clique Aqui para Expandir!)</i> </summary>
+  <br>
+</details>
 
 
-<img width="100" src="https://i.imgur.com/2vK0KFH.png"><details>
-  <summary> <b> Projetos Exercicios e Testes </b> <i>(Clique Aqui para Expandir!)</i> </summary>
+---
+<img width="100" src="https://i.imgur.com/2vK0KFH.png"> <b> Projetos de Exercicios e Testes </b>
+<details>
+  <summary> <i>(Clique Aqui para Expandir!)</i> </summary>
   <br>
 
 ### 5- 🏷️ Hotel Paraíso
@@ -73,3 +80,4 @@
 - **Descrição:** *Refazendo um dos meus primeiros exercicios de sites, utilizando flexbox. Contém 4 páginas.*
   
   </details>
+---
