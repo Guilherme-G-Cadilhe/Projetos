@@ -14,7 +14,7 @@
 </p>
 
 ---
-*Projetos, Testes e Exercícios de Front-End, utilizando HTML, CSS , JavaScript, etc.*
+<img width="100" src="https://cdn.pixilart.com/photos/large/bc43803dd8b5d8c.png"> *Projetos, Testes e Exercícios de Front-End, com HTML, CSS , JavaScript, etc.*
 ---
 
 <img width="100" src="https://i.imgur.com/c3p3xxu.png"> <b> Projetos Completos </b>
