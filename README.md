@@ -17,13 +17,12 @@
 <h2 align="center">
 <img width="100" src="https://cdn.pixilart.com/photos/large/bc43803dd8b5d8c.png"> Projetos, Testes e Exercícios de Front-End, com HTML, CSS , JavaScript, etc.
   </h2>
-  
----
+
 
 <br><br><br>
 <img width="100" src="https://i.imgur.com/c3p3xxu.png"> <b>Projetos Completos </b>
 <details>
-  <summary> <i>(Clique Aqui para Expandir!)</i> </summary>
+  <summary> <b>0 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
   <br>
 </details>
 
@@ -31,7 +30,7 @@
 ---
 <img width="100" src="https://i.imgur.com/2vK0KFH.png"> <b> Projetos de Exercicios e Testes </b>
 <details>
-  <summary> <i>(Clique Aqui para Expandir!)</i> </summary>
+  <summary> <b>5 - </b><i>(Clique Aqui para Expandir!)</i> </summary>
   <br>
 
 ### 5- 🏷️ Hotel Paraíso
