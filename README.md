@@ -1,9 +1,10 @@
 <h1 align="center">Sites e Outros</h1>
 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/c6/3c/ae/c63cae1344766f14d9d184e5aafed065.gif" alt="credits to waneella">
+  <img src="https://safebooru.org//images/2707/d7d73bb4ba90e830a002f6852e4a1f2baf73eafc.gif" alt="Credits to waneella"
 </P>
-
+<br>
+  
 [![HitCount](http://hits.dwyl.com/Guilherme-G-Cadilhe/Guilherme-G-Cadlihe.svg)](http://hits.dwyl.com/Guilherme-G-Cadilhe/Guilherme-G-Cadlihe)
 
 ---
