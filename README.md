@@ -31,7 +31,7 @@
 <img width="480" src="https://media.giphy.com/media/5Lil7S6iVLgjCIGBc0/giphy.gif"> 
 
 > <a href="https://www.evernote.com/l/As-SNNwUxUBGWayFx52XEzqMMQtp-xWatqY/"> 🧱 Fotos/Gifs</a> <br>
-- **Descrição:** *Criando um Site Responsivo e Dinâmico com Flexbox, para praticar, entender e aprender seus usos.*
+- **Descrição:** *Criando um jogo Snake em Java, utilizando o Eclipse IDE, aprendendo como funciona de modo geral o Java, e entendendo como é feito programas nele.*
 
 <br>
 
