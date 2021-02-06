@@ -1,29 +1,48 @@
-<h1 align="center">Projetos</h1>
+<h1 align="center">Programas e Outros</h1>
 
 <p align="center">
-  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a5a3db7-fb07-4532-aa4c-93f5a5d5d651/d9y6rvp-08b4238f-9618-4491-b5eb-0c44316bd858.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvN2E1YTNkYjctZmIwNy00NTMyLWFhNGMtOTNmNWE1ZDVkNjUxXC9kOXk2cnZwLTA4YjQyMzhmLTk2MTgtNDQ5MS1iNWViLTBjNDQzMTZiZDg1OC5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.A_cf7zEyv1JIIRc88yNt-9C278gkX-i76uZzLUZ3IVU" alt="Credits to Valenberg on Deviantart"
+  <img width="800" src="https://64.media.tumblr.com/1f52b709b7f0ebbda06e13adfb34a485/c579477dafa3b162-2e/s1280x1920/16b474b27928b212186d438d347bfaf2d6532d40.gifv" alt="Credits to KIROKAZE"
 </P>
-
+<br>
+  
 [![HitCount](http://hits.dwyl.com/Guilherme-G-Cadilhe/Guilherme-G-Cadlihe.svg)](http://hits.dwyl.com/Guilherme-G-Cadilhe/Guilherme-G-Cadlihe)
 
 ---
 
 <p align="center">
   <a href="https://github.com/Guilherme-G-Cadilhe">• 🗺 Perfil</a> |
-    <a href="https://github.com/Guilherme-G-Cadilhe/Estudos-Materias"> • 📘 Estudos e Matérias</a> |
-   <a href="https://github.com/Guilherme-G-Cadilhe/Cursos">• 🎓 Cursos e Aprendizados</a> 
+   <a href="https://github.com/Guilherme-G-Cadilhe/Projetos">• 🛠️ Projetos</a> 
 </p>
 
 ---
-<p align="center">
-  <img src="https://i.imgur.com/g1SQMxi.png"> </p>
+<h2 align="center">
+<img width="100" src="https://cdn.pixilart.com/photos/large/bc43803dd8b5d8c.png"> Projetos, Testes e Exercícios de Back-End, com Java, MySQL , PHP, etc.
+  </h2>
+
+
+<br><br><br>
+<img width="100" src="https://i.imgur.com/c3p3xxu.png"> <b>Projetos Completos </b>
+<details>
+  <summary> <b>1 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
+  <br>
   
-*Minha área de projetos, onde colocarei todos os projetos completos e exercicios que eu vá fazendo, praticando e testando.*
+ ### 1- 🗂️ Snake
+
+<img width="480" src="https://media.giphy.com/media/5Lil7S6iVLgjCIGBc0/giphy.gif"> 
+
+> <a href="https://www.evernote.com/l/As-SNNwUxUBGWayFx52XEzqMMQtp-xWatqY/"> 🧱 Fotos/Gifs</a> <br>
+- **Descrição:** *Criando um Site Responsivo e Dinâmico com Flexbox, para praticar, entender e aprender seus usos.*
+
+<br>
+
+</details>
+
+
 ---
-
-### <img width="35" src="https://i.imgur.com/xE78353.png"> Sites e Outros ( Front-end )
-
-
-> <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos---Sites-e-Afins"> ❤️ Link para a Página</a> <br>
-- **Quantidade de Projetos: 5**
+<img width="100" src="https://i.imgur.com/2vK0KFH.png"> <b> Projetos de Exercicios e Testes </b>
+<details>
+  <summary> <b>0 - </b><i>(Clique Aqui para Expandir!)</i> </summary>
+  <br>
   
+ </details>
+---
