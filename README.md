@@ -23,8 +23,18 @@
 <br><br><br>
 <img width="100" src="https://i.imgur.com/c3p3xxu.png"> <b>Projetos Completos </b>
 <details>
-  <summary> <b>0 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
+  <summary> <b>1 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
   <br>
+  
+  ### 1- 🏷️ Dev.Finances
+
+<img width="400" src="https://i.imgur.com/27TpJr6.png">
+<img width="400" src="https://i.imgur.com/TCD0NvC.png">
+
+> <a href="https://github.com/Guilherme-G-Cadilhe/DevFinances"> 🚀 Link do Projeto no Repositório</a> <br>
+- **Descrição:** *Junção de Dois projetos diferentes para criar um projeto único com um "universo" proprio.<br>
+Um **Página de Finanças** para adicionar e Remover transações, com Calculo Automatico e outras funções.<br>
+Uma **Landing Page** para apresentação do "Banco Dev.Finances", ambos com as páginas responsivas e dinamicas.*
 </details>
 
 
