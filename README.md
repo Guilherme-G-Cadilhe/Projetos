@@ -31,7 +31,7 @@
 <img src="https://media.giphy.com/media/vUtVuMbYpWR0oLUBRH/giphy.gif"> 
 
 > <a href="https://github.com/Guilherme-G-Cadilhe/GrandChase_LandingPage"> 🚀 Link do Projeto no Repositório</a> <br>
-- **Descrição:** *Projeto de Landing Page de Personagem, desenvolvido e inspirado no Projeto **FrontWeek de Násser Yousef Ali**.
+- **Descrição:** *Projeto de Landing Page de Personagem, desenvolvido e inspirado no Projeto **FrontWeek de Násser Yousef Ali**.<br>
 Utilizando como base e inspiração, **Grand Chase** em vez de **Spiderman** como no projeto Original.*
 <br>
 
