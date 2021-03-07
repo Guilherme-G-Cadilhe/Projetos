@@ -23,7 +23,7 @@
 <br><br><br>
 <img width="100" src="https://i.imgur.com/c3p3xxu.png"> <b>Projetos Completos </b>
 <details>
-  <summary> <b>1 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
+  <summary> <b>2 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
   <br>
   
   ### 1- 🏷️ GrandChase Landing Page
