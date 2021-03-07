@@ -26,7 +26,17 @@
   <summary> <b>1 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
   <br>
   
-  ### 1- 🏷️ Dev.Finances
+  ### 1- 🏷️ GrandChase Landing Page
+
+<img src="https://media.giphy.com/media/vUtVuMbYpWR0oLUBRH/giphy.gif"> 
+
+> <a href="https://github.com/Guilherme-G-Cadilhe/GrandChase_LandingPage"> 🚀 Link do Projeto no Repositório</a> <br>
+- **Descrição:** *Projeto de Landing Page de Personagem, desenvolvido e inspirado no Projeto **FrontWeek de Násser Yousef Ali**.
+Utilizando como base e inspiração, **Grand Chase** em vez de **Spiderman** como no projeto Original.*
+<br>
+
+
+  ### 2- 🏷️ Dev.Finances
 
 <img width="400" src="https://i.imgur.com/27TpJr6.png">
 <img width="400" src="https://i.imgur.com/TCD0NvC.png">
