@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos DOM</title>
+  <style>
+    body {
+      font-size: 30px;
+      background-color:#c8c8e2;
+      color: #363535;
+    }
+    h1 {
+      color: #a845d6;
+    }
+    #area {
+      background-color:green;
+      width:250px;
+      height: 200px;
+      text-align: center;
+      line-height:180px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="area" >
+    Interaja....
+  </div>
+
+  <script>
+    var a = document.getElementById('area')
+
+    a.addEventListener('mouseenter',entrou)
+    a.addEventListener('mouseout',saiu)
+    a.addEventListener('mousemove',moveu)
+
+    function entrou() {
+      a.style.backgroundColor = 'purple';
+    }
+    function moveu() {
+      a.innerText = "ENTROU!";
+      a.style.color = "white";
+    }
+    function saiu() {
+      a.innerText ="SAIU!";
+      a.style.color = "gold";
+      a.style.backgroundColor = 'green';
+    }
+
+  </script>
+</body>
+</html>
