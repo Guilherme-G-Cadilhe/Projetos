@@ -23,7 +23,7 @@
 
 ### <img width="35" src="https://i.imgur.com/xE78353.png"> Sites e Outros ( Front-end )
 > <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos---Sites-e-Afins"> ❤️ Link para a Página</a> <br>
-> **Conteúdo: JavaSCript, HTML , CSS , SASS**
+> **Conteúdo: JavaScript, Html , Css , Sass**
 - **Quantidade de Projetos: 12**
 
 ---
