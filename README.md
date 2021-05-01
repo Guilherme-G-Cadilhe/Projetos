@@ -51,16 +51,28 @@ Uma **Landing Page** para apresentação do "Banco Dev.Finances", ambos com as p
 ---
 <img width="100" src="https://i.imgur.com/2vK0KFH.png"> <b> Projetos de Exercicios e Testes </b>
 <details>
-  <summary> <b>11 - </b><i>(Clique Aqui para Expandir!)</i> </summary>
+  <summary> <b>12 - </b><i>(Clique Aqui para Expandir!)</i> </summary>
   <br>
 
 
+
+
+### 12- 🏷️ Timer
+
+<img width="480" src="https://media.giphy.com/media/rqS1h5QE3mdW2PfM3S/giphy.gif"> 
+
+> <a href="https://www.evernote.com/l/As_avggzOVRCU74NOTTGgmEmXtkjM3NQWTU/"> 🧱 Fotos/Gifs e Detalhes/Código</a> <br>
+- **Descrição:** *Uitliza new Date(), event.target e Interval para criar um Timer com Pausar, Voltar, e Zerar*
+- **Ferramenta:** *JavaScript, CSS, HTML.*
+  
+
+<br>
 
 ### 11- 🏷️ Calculadora IMC
 
 <img width="480" src="https://media.giphy.com/media/ETQcofZ71aKLWyKzUO/giphy.gif"> 
 
-> <a href="https://www.evernote.com/l/As_avggzOVRCU74NOTTGgmEmXtkjM3NQWTU/"> 🧱 Fotos/Gifs e detalhes</a> <br>
+> <a href="https://www.evernote.com/l/As_avggzOVRCU74NOTTGgmEmXtkjM3NQWTU/"> 🧱 Fotos/Gifs e Detalhes/Código</a> <br>
 - **Descrição:** *Contém testes de validação, funções de escopo separados, e os casos são armazenados em Array*
 - **Ferramenta:** *JavaScript, CSS, HTML.*
   
