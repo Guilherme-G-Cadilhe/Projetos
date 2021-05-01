@@ -18,13 +18,13 @@
 <p align="center">
   <img src="https://i.imgur.com/g1SQMxi.png"> </p>
   
-*Minha área de projetos, onde colocarei todos os projetos completos e exercicios que eu vá fazendo, praticando e testando.*
+*Minha área de projetos, onde coloco desde pequenos projetos a projetos grandes, de forma resumida e diâmica. Onde eu vou fazendo, praticando e testando.*
 ---
 
 ### <img width="35" src="https://i.imgur.com/xE78353.png"> Sites e Outros ( Front-end )
 > <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos---Sites-e-Afins"> ❤️ Link para a Página</a> <br>
-> **Conteúdo: JavaScript, Html , Css , Sass**
-- **Quantidade de Projetos: 13**
+> **Conteúdo: JavaScript, Html , Css , Sass, Node**
+- **Quantidade de Projetos: 14**
 
 ---
 ### <img width="35" src="https://i.imgur.com/RWdvwPO.png"> Programas e Outros ( Back-end )
