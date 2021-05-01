@@ -18,7 +18,7 @@
 <p align="center">
   <img src="https://i.imgur.com/g1SQMxi.png"> </p>
   
-*Minha área de projetos, onde coloco desde pequenos projetos a projetos grandes, de forma resumida e diâmica. Onde eu vou fazendo, praticando e testando.*
+*Minha área de projetos, onde coloco desde pequenos projetos a projetos grandes, de forma resumida e diâmica. <br>Que vou fazendo, praticando e testando.*
 ---
 
 ### <img width="35" src="https://i.imgur.com/xE78353.png"> Sites e Outros ( Front-end )
