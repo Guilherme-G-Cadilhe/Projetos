@@ -23,10 +23,21 @@
 <br><br><br>
 <img width="100" src="https://i.imgur.com/c3p3xxu.png"> <b>Projetos Completos </b>
 <details>
-  <summary> <b>2 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
+  <summary> <b>3 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
   <br>
   
-  ### 1- 🏷️ GrandChase Landing Page
+  ### 1- 🏷️ Voice Memo App Template
+
+<img src="https://media.giphy.com/media/bAqcVUXOI45jbTitkX/giphy.gif"> 
+
+> <a href="https://www.evernote.com/l/As9KrvidzfFP34KVGms07I0cbU7m9KW0vaw/"> 🧱 Fotos/Gifs e Detalhes/Código</a> <br>
+- **Descrição:** *Projeto de Voice Memo App Template, desenvolvido durante a aula do **Erick Wendel** no Youtube.<br>
+Utilizando HTML5, Media Recorder e getUserMedia Web APIs, e usando modularização nativa com EcmaScript Modules*
+<br>
+
+
+  
+  ### 2- 🏷️ GrandChase Landing Page
 
 <img src="https://media.giphy.com/media/vUtVuMbYpWR0oLUBRH/giphy.gif"> 
 
@@ -36,7 +47,7 @@ Utilizando como base e inspiração, **Grand Chase** em vez de **Spiderman** com
 <br>
 
 
-  ### 2- 🏷️ Dev.Finances
+  ### 3- 🏷️ Dev.Finances
 
 <img width="400" src="https://i.imgur.com/27TpJr6.png">
 <img width="400" src="https://i.imgur.com/TCD0NvC.png">
