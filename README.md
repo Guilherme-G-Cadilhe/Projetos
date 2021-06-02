@@ -67,6 +67,16 @@ Uma **Landing Page** para apresentação do "Banco Dev.Finances", ambos com as p
 
 
 
+### 13- 🏷️ Lista de Tarefas
+
+<img width="480" src="https://media.giphy.com/media/Ok4PqXskwJWVH3LY9t/giphy.gif"> 
+
+> <a href="https://www.evernote.com/l/As_U4iCyRJZMJoY1qfJerC3GyTo2IMd3914/"> 🧱 Fotos/Gifs e Detalhes/Código</a> <br>
+- **Descrição:** *Uitliza WebStorage para armazenar as tarefas em Arrays, e funções de eventos como o Enter para adiciona-las*
+- **Ferramenta:** *JavaScript, CSS, HTML.*
+  
+
+<br>
 
 ### 12- 🏷️ Timer
 
