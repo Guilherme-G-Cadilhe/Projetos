@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --primary-color: rgb(26, 111, 134);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: "Open Sans", Sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+form button {
+  border: none;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+}
+
+form input:focus {
+  outline: 2px solid green;
+}
+
+form button:hover {
+  background-color: rgba(16, 151, 16, 0.705);
+}
+
+.calculadora {
+  margin: auto;
+  width: 400px;
+}
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+}
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background: #dfdfdf;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #b9b7b7;
+}
+.btn-eq {
+  background: #4286f5;
+  color: white;
+  font-size: 1.3em;
+}
+.btn-eq:hover {
+  background: #3576df;
+}
