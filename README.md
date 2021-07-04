@@ -4,7 +4,6 @@
   <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a5a3db7-fb07-4532-aa4c-93f5a5d5d651/d9y6rvp-08b4238f-9618-4491-b5eb-0c44316bd858.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvN2E1YTNkYjctZmIwNy00NTMyLWFhNGMtOTNmNWE1ZDVkNjUxXC9kOXk2cnZwLTA4YjQyMzhmLTk2MTgtNDQ5MS1iNWViLTBjNDQzMTZiZDg1OC5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.A_cf7zEyv1JIIRc88yNt-9C278gkX-i76uZzLUZ3IVU" alt="Credits to Valenberg on Deviantart"
 </P>
 
-[![HitCount](http://hits.dwyl.com/Guilherme-G-Cadilhe/Guilherme-G-Cadlihe.svg)](http://hits.dwyl.com/Guilherme-G-Cadilhe/Guilherme-G-Cadlihe)
 
 ---
 
@@ -18,13 +17,13 @@
 <p align="center">
   <img src="https://i.imgur.com/g1SQMxi.png"> </p>
   
-*Minha área de projetos, onde coloco desde pequenos projetos a projetos grandes, de forma resumida e diâmica. <br>Que vou fazendo, praticando e testando.*
+*Minha biblioteca de Projetos e Links de Projetos em outros Repositorios, onde coloco desde meus pequenos projetos a projetos grandes, de forma resumida e diâmica. <br><br> Armazeno projetos e aulas de cursos, estudos e outros.*
 ---
 
 ### <img width="35" src="https://i.imgur.com/xE78353.png"> Sites e Outros ( Front-end )
 > <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos---Sites-e-Afins"> ❤️ Link para a Página</a> <br>
-> **Conteúdo: JavaScript, Html , Css , Sass, Node**
-- **Quantidade de Projetos: 17**
+> **Conteúdo: JavaScript, HTML , CSS , Sass, Node, EJS, Express, SQLite**
+- **Quantidade de Projetos: 18**
 
 ---
 ### <img width="35" src="https://i.imgur.com/RWdvwPO.png"> Programas e Outros ( Back-end )
