@@ -23,27 +23,4 @@ concatenar os digitos resultantes com os números originais e comparar com o ori
 705.404.450-52 === 705.404.450
 */
 
-const cpf = '705.484.450-52';
-
-let cpfLimpo = cpf.replace(/\D+/g, '');
-let cpfArray = Array.from(cpfLimpo);
-
-const numVerificador = cpfLimpo.slice(-2);
-
-const principalArray = [];
-
-for (let i = 0; i < cpfArray.length - 2; i++) {
-  principalArray.push(cpfArray[i]);
-}
-
-const cpfMulti = principalArray.map((valor, indice, array) => {
-  return valor * (array.length - --indice);
-});
-
-const cpfSomado = cpfMulti.reduce((acc, valor) => {
-  acc += Number(valor);
-  return acc;
-}, 0);
-
-console.log(cpfMulti);
-console.log(cpfSomado);
+function validaCPF(cpf) {}
