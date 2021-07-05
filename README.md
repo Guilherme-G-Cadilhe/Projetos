@@ -1,11 +1,10 @@
-<h1 align="center">Sites e Outros</h1>
+<h1 align="center">Front-End</h1>
 
 <p align="center">
   <img src="https://safebooru.org//images/2707/d7d73bb4ba90e830a002f6852e4a1f2baf73eafc.gif" alt="Credits to waneella"
 </P>
 <br>
   
-[![HitCount](http://hits.dwyl.com/Guilherme-G-Cadilhe/Guilherme-G-Cadlihe.svg)](http://hits.dwyl.com/Guilherme-G-Cadilhe/Guilherme-G-Cadlihe)
 
 ---
 
@@ -16,17 +15,29 @@
 
 ---
 <h2 align="center">
-<img width="100" src="https://cdn.pixilart.com/photos/large/bc43803dd8b5d8c.png"> Projetos, Testes e Exercícios de Front-End, com HTML, CSS , JavaScript, etc.
+<img width="100" src="https://cdn.pixilart.com/photos/large/bc43803dd8b5d8c.png"> Projetos, Testes e Exercícios de Front-End.
   </h2>
 
 
 <br><br><br>
 <img width="100" src="https://i.imgur.com/c3p3xxu.png"> <b>Projetos Completos </b>
 <details>
-  <summary> <b>3 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
+  <summary> <b>4 - </b>  <i>(Clique Aqui para Expandir!)</i> </summary>
   <br>
+ 
+### 4- 🏷️ JobsCalc
+
+<img src="https://media.giphy.com/media/VpWEwpQ9ZDSNSpRoop/giphy.gif"> 
+
+> <a href="https://github.com/Guilherme-G-Cadilhe/JobsCalc"> 🚀 Link do Projeto no Repositório</a> <br>
+- **Descrição:** *Projeto de aplicação de estimativa de cálculos de custos para projetos freelancer.<br>
+Utilizando Node.JS, EJS, SQLite, Express, podendo Criar, Alterar e Deletar Jobs, etc, e salva-los no banco de dados*
+<br>
+
   
-  ### 1- 🏷️ Voice Memo App Template
+  
+  
+### 3- 🏷️ Voice Memo App Template
 
 <img src="https://media.giphy.com/media/bAqcVUXOI45jbTitkX/giphy.gif"> 
 
@@ -37,7 +48,7 @@ Utilizando HTML5, Media Recorder e getUserMedia Web APIs, e usando modularizaç�
 
 
   
-  ### 2- 🏷️ GrandChase Landing Page
+### 2- 🏷️ GrandChase Landing Page
 
 <img src="https://media.giphy.com/media/vUtVuMbYpWR0oLUBRH/giphy.gif"> 
 
@@ -47,7 +58,7 @@ Utilizando como base e inspiração, **Grand Chase** em vez de **Spiderman** com
 <br>
 
 
-  ### 3- 🏷️ Dev.Finances
+### 1- 🏷️ Dev.Finances
 
 <img width="400" src="https://i.imgur.com/27TpJr6.png">
 <img width="400" src="https://i.imgur.com/TCD0NvC.png">
