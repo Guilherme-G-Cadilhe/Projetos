@@ -20,13 +20,15 @@
 *Minha biblioteca de Projetos e Links de Projetos em outros Repositorios, onde coloco desde meus pequenos projetos a projetos grandes, de forma resumida e diâmica. <br><br> Armazeno projetos e aulas de cursos, estudos e outros.*
 ---
 
-### <img width="35" src="https://i.imgur.com/xE78353.png">  Front-end and Back-end Main Projects
+<br>
+
+## <img width="50" src="https://i.imgur.com/xE78353.png">  Front-end and Back-end <i>| Main Projects |</i>
 > <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos---Sites-e-Afins"> ❤️ Link to the Page</a> <br>
 > **Technologies: JavaScript, HTML , CSS , Sass, Node, EJS, Express, SQLite**
 - **Number of Projects: 18**
 
 ---
-### <img width="35" src="https://www.svgrepo.com/show/261808/api.svg"> APIs Projects
+## <img width="50" src="https://www.svgrepo.com/show/261808/api.svg"> APIs Projects <i>| Side Projects |</i>
 
 
 > <a href="https://github.com/Guilherme-G-Cadilhe/Projetos_de_API"> ❤️ Link to the Page</a> <br>
@@ -34,7 +36,7 @@
 - **Number of Projects: 1**
 
 ---
-### <img width="35" src="https://i.imgur.com/RWdvwPO.png"> Programs and Others
+## <img width="50" src="https://i.imgur.com/RWdvwPO.png"> Others <i>| Trying different Projects |</i>
 
 
 > <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos-programas-e-outros"> ❤️ Link to the Page</a> <br>
