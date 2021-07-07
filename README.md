@@ -20,15 +20,23 @@
 *Minha biblioteca de Projetos e Links de Projetos em outros Repositorios, onde coloco desde meus pequenos projetos a projetos grandes, de forma resumida e diâmica. <br><br> Armazeno projetos e aulas de cursos, estudos e outros.*
 ---
 
-### <img width="35" src="https://i.imgur.com/xE78353.png"> Sites e Outros ( Front-end )
-> <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos---Sites-e-Afins"> ❤️ Link para a Página</a> <br>
-> **Conteúdo: JavaScript, HTML , CSS , Sass, Node, EJS, Express, SQLite**
-- **Quantidade de Projetos: 18**
+### <img width="35" src="https://i.imgur.com/xE78353.png">  Front-end and Back-end Main Projects
+> <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos---Sites-e-Afins"> ❤️ Link to the Page</a> <br>
+> **Technologies: JavaScript, HTML , CSS , Sass, Node, EJS, Express, SQLite**
+- **Number of Projects: 18**
 
 ---
-### <img width="35" src="https://i.imgur.com/RWdvwPO.png"> Programas e Outros ( Back-end )
+### <img width="35" src="https://www.svgrepo.com/show/261808/api.svg"> APIs Projects
 
 
-> <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos-programas-e-outros"> ❤️ Link para a Página</a> <br>
-> **Conteúdo: Java**
-- **Quantidade de Projetos: 1**
+> <a href="https://github.com/Guilherme-G-Cadilhe/Projetos_de_API"> ❤️ Link to the Page</a> <br>
+> **Technologies: Javascript, Canvas.js , HTML**
+- **Number of Projects: 1**
+
+---
+### <img width="35" src="https://i.imgur.com/RWdvwPO.png"> Programs and Others
+
+
+> <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos-programas-e-outros"> ❤️ Link to the Page</a> <br>
+> **Technologies: Java**
+- **Number of Projects: 1**
