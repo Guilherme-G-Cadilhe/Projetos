@@ -32,8 +32,8 @@
 
 
 > <a href="https://github.com/Guilherme-G-Cadilhe/Projetos_de_API"> ❤️ Link to the Page</a> <br>
-> **Technologies: Javascript, Canvas.js , HTML**
-- **Number of Projects: 1**
+> **Technologies: Javascript, Canvas.js , Node , Express, CORS , AXIOS, HTML**
+- **Number of Projects: 6**
 
 ---
 ## <img width="50" src="https://i.imgur.com/RWdvwPO.png"> Others <i>| Trying different Projects |</i>
