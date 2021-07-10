@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicios Dom</title>
+  <script src="/aula09/Javascript3.js"></script>
+  <style>
+    body {
+      font-size: 20px;
+      background-color:#c8c8e2;
+      color: #363535;
+    }
+    h1 {
+      color: #a845d6;
+    }
+  </style>
+</head>
+<body>
+   <h1>Iniciando Estudos com DOM</h1>
+   <p class="teste">Aprendendo a usar o <strong>DOM</strong></p>
+   <div> Clique em Mim</div>
+   <p>Aqui vai o Resultado</p>
+
+  <script>
+    var p1 = document.querySelector('p.teste')
+    document.write(p1.innerHTML);
+
+  </script>
+</body>
+</html>
