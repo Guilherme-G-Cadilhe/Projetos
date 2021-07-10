@@ -73,10 +73,21 @@ Uma **Landing Page** para apresentação do "Banco Dev.Finances", ambos com as p
 ---
 <img width="100" src="https://i.imgur.com/2vK0KFH.png"> <b> Projetos de Exercicios e Testes </b>
 <details>
-  <summary> <b>14 - </b><i>(Clique Aqui para Expandir!)</i> </summary>
+  <summary> <b>15 - </b><i>(Clique Aqui para Expandir!)</i> </summary>
   <br>
 
+### 15- 🏷️ Expanding Cards
+  
+ 
+<img width="480" src="GifsAnimados/ExpandingCards.gif"> 
 
+> <a href="https://www.evernote.com/l/As8EPBG8JzxMU5QJOfFN0lxs6xdPXF4COq8/"> 🧱 Fotos/Gifs e Detalhes/Código</a> <br>
+- **Descrição:** *Cartas que se expandem quando são clicadas*
+- **Ferramenta:** *JavaScript, CSS, HTML.*
+  
+
+<br>
+  
 ### 14- 🏷️ Calculadora
 
 <img width="480" src="https://media.giphy.com/media/qrUofIDodffpIoGuzg/giphy.gif"> 
