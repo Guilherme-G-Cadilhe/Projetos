@@ -81,7 +81,7 @@ Uma **Landing Page** para apresentação do "Banco Dev.Finances", ambos com as p
  
 <img width="480" src="GifsAnimados/ExpandingCards.gif"> 
 
-> <a href="https://www.evernote.com/l/As8EPBG8JzxMU5QJOfFN0lxs6xdPXF4COq8/"> 🧱 Fotos/Gifs e Detalhes/Código</a> <br>
+> <a href="https://www.notion.so/Expanding-Cards-26930251df2749e68c348071bcd27bb1"> 🧱 Fotos/Gifs e Detalhes/Código</a> <br>
 - **Descrição:** *Cartas que se expandem quando são clicadas*
 - **Ferramenta:** *JavaScript, CSS, HTML.*
   
