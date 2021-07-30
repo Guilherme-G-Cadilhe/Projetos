@@ -1,0 +1,20 @@
+{
+  "name": "NodeLogin",
+  "version": "1.0.0",
+  "description": "Projeto teste de log in",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Bobnini",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; form-action 'self'; frame-ancestors 'none'; style-src 'self' https://fonts.googleapis.com/; img-src 'self' data:; font-src https://fonts.gstatic.com/; script-src 'self' https://www.google-analytics.com/analytics.js https://code.jquery.com/jquery-1.12.4.js; connect-src 'self'"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Node</title>
+  </head>
+  <body>
+    <h2>Faça o Log in</h2>
+
+    <form method="POST" action="/">
+      <input type="text" name="username" id="username" />
+      <input type="password" name="password" id="password" />
+      <input type="submit" name="enviar" value="Logar" />
+    </form>
+  </body>
+</html>
