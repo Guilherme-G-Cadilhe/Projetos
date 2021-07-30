@@ -26,10 +26,11 @@ const password = "123";
 // Rotas de acesso na página
 app.post("/", (req, res) => {
   if (req.body.username == login && req.body.password == password) {
-    // Testa se é a conta
+    // Testa se é a conta 'salva'
+
     // Logado
-    req.session.username = login;
-    res.render("logado", { username: login });
+    req.session.username = login; //Salva log in
+    res.render("logado", { username: login }); //Passando o nome do usuario pra a página
   } else {
     res.render("index");
   }
@@ -37,7 +38,9 @@ app.post("/", (req, res) => {
   console.log(data);
 });
 app.get("/", (req, res) => {
+  //Página principal
   if (req.session.username) {
+    //Se estiver logado
     res.render("logado", { username: login });
     console.log(` O meu usuario logado é ${req.session.username}`);
   } else {
