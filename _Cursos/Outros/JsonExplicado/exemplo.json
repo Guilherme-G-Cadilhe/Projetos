@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Bobnini",
+    "lastName": "Cadilhe",
+    "age": 21
+  },
+  {
+    "name": "Bob",
+    "lastName": "Cadi",
+    "age": false
+  },
+  {
+    "name": "nini",
+    "lastName": "lhe",
+    "age": 30,
+    "addresses": [
+      {
+        "rua": "alguma"
+      },
+      {
+        "rua": "algo"
+      }
+    ]
+  }
+]
