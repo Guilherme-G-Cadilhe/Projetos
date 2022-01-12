@@ -2,7 +2,6 @@
 // import Modal from './Modal';
 // import Backdrop from './Backdrop';
 
-
 // function Todo(props) {
 //   const [modalOpen, setModal] = useState(false);
 
