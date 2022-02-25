@@ -24,7 +24,7 @@
 
 ## <img width="50" src="https://i.imgur.com/xE78353.png">  Front-end and Back-end <i>| Main Projects |</i>
 > <a href="https://github.com/Guilherme-G-Cadilhe/Projetos/tree/Projetos---Sites-e-Afins"> ❤️ Link to the Page</a> <br>
-> **Technologies: JavaScript, HTML , CSS , Sass, Node, EJS, Express, SQLite**
+> **Technologies: React,JavaScript, HTML , CSS , Sass, Node, EJS, Express, SQLite**
 - **Number of Projects: 19**
 
 ---
