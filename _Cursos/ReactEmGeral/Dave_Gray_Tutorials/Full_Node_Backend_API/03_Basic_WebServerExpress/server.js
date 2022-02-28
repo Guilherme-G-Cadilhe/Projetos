@@ -31,12 +31,6 @@ app.use('/', require('./routes/root'))
 app.use('/employees', require('./routes/api/employees'))
 
 
-
-// // Envia todos os caminhos pro subdiretorio('/subdir), pra dentro do routes de lá
-// app.use('/subdir', express.static(path.join(__dirname, '/public')))
-// app.use('/subdir', require('./routes/subdir'))
-
-
 // Rota padrão para qualquer uma que não for achada ( página de erro 404 )
 app.all('*', (req, res) => {
   res.status(404);
