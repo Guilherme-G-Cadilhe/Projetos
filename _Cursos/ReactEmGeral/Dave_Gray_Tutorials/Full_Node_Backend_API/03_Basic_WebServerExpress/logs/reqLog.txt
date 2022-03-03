@@ -91,3 +91,10 @@
 2022-03-03	16:53	 044ddc29-7de8-4f39-90aa-08f9da785cc8	GET	undefined	/refresh
 2022-03-03	16:53	 d92d1034-5aee-467c-aa26-6c74b6030531	GET	undefined	/refresh
 2022-03-03	16:53	 81d509a8-4898-49a1-af85-e84f40ec5591	GET	undefined	/refresh
+2022-03-03	17:20	 57aaaf2a-b5e1-430e-82f3-925c20eccccf	GET	undefined	/refresh
+2022-03-03	17:20	 a28eeb3a-b789-47a4-8163-474664cd628b	GET	undefined	/logout
+2022-03-03	17:20	 86b834a8-a082-4d56-9c82-b1c3284ece3c	GET	undefined	/logout
+2022-03-03	17:21	 e73a1ea7-2f22-4956-bd39-bb1678c2ea36	GET	undefined	/logout
+2022-03-03	17:21	 bde6f7e6-317c-4d00-b5bd-225adcf2dbd0	GET	undefined	/logout
+2022-03-03	17:21	 229be52a-1e41-4425-8bac-6071cc2ddd6c	GET	undefined	/logout
+2022-03-03	17:22	 436e023b-5894-464a-a748-07731f42e4fa	GET	undefined	/refresh
