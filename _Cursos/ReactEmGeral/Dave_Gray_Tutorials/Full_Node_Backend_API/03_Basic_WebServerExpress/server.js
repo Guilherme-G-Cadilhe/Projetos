@@ -17,18 +17,20 @@ app.use(cors(corsOptions));
 
 // Middleware nativo para manipular 'urlenconded data'
 // em outras palavras: data de formulario: 'content-type: application/x.www-form-urlencoded'
-app.use(express.urlencoded({ extended: false }))
+app.use(express.urlencoded({ extended: false }));
 
 // Middleware nativo para JSON
-app.use(express.json())
+app.use(express.json());
 
 // Serve Arquivos Estaticos (static files), caminho padrão é '/'
-app.use(express.static(path.join(__dirname, '/public')))
+app.use(express.static(path.join(__dirname, '/public')));
 
 
-// Envia toda raiz do '/' para essas rotas no root
-app.use('/', require('./routes/root'))
-app.use('/employees', require('./routes/api/employees'))
+// Rotas
+app.use('/', require('./routes/root'));
+app.use('/register', require('./routes/api/register'));
+app.use('/auth', require('./routes/api/auth'));
+app.use('/employees', require('./routes/api/employees'));
 
 
 // Rota padrão para qualquer uma que não for achada ( página de erro 404 )

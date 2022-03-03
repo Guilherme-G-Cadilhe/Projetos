@@ -26,7 +26,7 @@ const createNewEmployee = (req, res) => {
 const updateEmployee = (req, res) => {
 
   const employee = data.employees.find(employee => employee.id === parseInt(req.body.id));
-  if (!employee) res.status(400).json({ message: `Funcionario de ID ${req.body.id} não encontrado` });
+  if (!employee) res.status(400).json({ message: `Funcionario de ID '${req.body.id}' não encontrado` });
 
   if (req.body.firstname) employee.firstname = req.body.firstname
   if (req.body.lastname) employee.lastname = req.body.lastname
@@ -41,7 +41,7 @@ const updateEmployee = (req, res) => {
 
 const deleteEmployee = (req, res) => {
   const employee = data.employees.find(employee => employee.id === parseInt(req.body.id));
-  if (!employee) res.status(400).json({ message: `Funcionario de ID ${req.body.id} não encontrado` });
+  if (!employee) res.status(400).json({ message: `Funcionario de ID '${req.body.id}' não encontrado` });
 
   const filteredArray = data.employees.filter(employee => employee.id !== parseInt(req.body.id));
   data.setEmployees([...filteredArray]);
@@ -52,7 +52,7 @@ const deleteEmployee = (req, res) => {
 const getEmployee = (req, res) => {
   const employee = data.employees.find(employee => employee.id === parseInt(req.params.id));
   if (!employee) {
-    return res.status(400).json({ message: `Funcionario de ID ${req.params.id} não encontrado` });
+    return res.status(400).json({ message: `Funcionario de ID '${req.params.id}' não encontrado` });
   }
 
   res.json(employee)

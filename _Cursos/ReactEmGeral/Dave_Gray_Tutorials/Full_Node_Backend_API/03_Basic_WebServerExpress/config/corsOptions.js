@@ -13,7 +13,7 @@ const corsOptions = {
     if (whitelistdomains.indexOf(origin) !== -1 || !origin) {
       callback(null, true)
     } else {
-      callback(new Error('Não permitido pelo CORS'));
+      callback(new Error(`Dominio: ${origin}. Não permitido pela Lista Privada do CORS`));
     }
   },
   optionsSuccessStatus: 200
