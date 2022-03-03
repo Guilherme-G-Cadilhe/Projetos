@@ -11,6 +11,7 @@ const path = require('path');
 
 
 const handleLogin = async function (req, res) {
+
   const { user, pwd } = req.body;
   if (!user || !pwd) return res.status(400).json({ 'message': 'Username e Password são obrigatórios' })
 
@@ -22,7 +23,7 @@ const handleLogin = async function (req, res) {
     // criar JWT ( token )
     const acessToken = jwt.sign(
       { "username": foundUser.username },
-      process.env.ACESS_TOKEN_SECRET,
+      process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: '30s' }
     );
     const refreshToken = jwt.sign({ "username": foundUser.username }, process.env.REFRESH_TOKEN_SECRET, { expiresIn: '1d' } // 1 day
@@ -38,10 +39,10 @@ const handleLogin = async function (req, res) {
       JSON.stringify(usersDB.users)
     );
 
-    // Seta cookies em HTTPOnly e não permite q o JS o capture e roube
+    // Seta cookies em HTTPOnly e não fica disponivel para q o JS o capture e roube
     // 24 * 60 * 60 * 1000 = 1 dia
     res.cookie('jwt', refreshToken, { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 })
-    res.json({ 'token': `${acessToken}` })
+    res.json({ 'acessToken': `${acessToken}` })
   } else {
     res.sendStatus(401);
   }
