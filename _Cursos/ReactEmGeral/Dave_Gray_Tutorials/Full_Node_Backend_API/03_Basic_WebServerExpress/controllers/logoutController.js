@@ -16,7 +16,7 @@ const handleLogout = async function (req, res) {
   // já existe RefreshToken no DB ?
   const foundUser = usersDB.users.find(person => person.refreshToken === refreshToken);
   if (!foundUser) { //não
-    res.clearCookie('jwt', { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 });
+    res.clearCookie('jwt', { httpOnly: true, sameSite: 'None', secure: true });
     return res.sendStatus(204);
   }
   // Deletar RefreshToken no DB
@@ -28,8 +28,9 @@ const handleLogout = async function (req, res) {
     path.join(__dirname, '..', 'model', 'users.json'),
     JSON.stringify(usersDB.users)
   );
-  //Adicionar opção extra em produção 'Secure: true' - funciona apenas em https
-  res.clearCookie('jwt', { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 });
+
+  //Deletar cookies tem q ser enviado as mesmas opções da criação com exceção de maxAge
+  res.clearCookie('jwt', { httpOnly: true, sameSite: 'None', secure: true });
   return res.sendStatus(204);
 }
 

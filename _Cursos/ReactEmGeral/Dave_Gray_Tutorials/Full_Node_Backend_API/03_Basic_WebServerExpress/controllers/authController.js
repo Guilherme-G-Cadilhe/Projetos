@@ -41,7 +41,9 @@ const handleLogin = async function (req, res) {
 
     // Seta cookies em HTTPOnly e não fica disponivel para q o JS o capture e roube
     // 24 * 60 * 60 * 1000 = 1 dia
-    res.cookie('jwt', refreshToken, { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 })
+    // Para permitir utilizar cookies entre dominio,s colocar = sameSite: 'None'
+    //Adicionar opção extra 'Secure: true'
+    res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 })
     res.json({ 'acessToken': `${acessToken}` })
   } else {
     res.sendStatus(401);
