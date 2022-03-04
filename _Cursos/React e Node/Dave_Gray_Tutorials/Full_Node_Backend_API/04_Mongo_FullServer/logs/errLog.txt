@@ -1,0 +1,4 @@
+
+2022-02-28	10:14	 bfe06e89-e403-435c-b98a-3e807cd7d555	Error: Não permitido pelo CORS
+2022-03-04	09:30	 8253698a-8641-4f6a-8d59-b8a7f4f26663	TypeError: rolesArray.inculudes is not a function
+2022-03-04	09:31	 4f5a455e-ac66-4ad1-b071-68ed4fd06e5f	TypeError: rolesArray.includes(...).find is not a function
