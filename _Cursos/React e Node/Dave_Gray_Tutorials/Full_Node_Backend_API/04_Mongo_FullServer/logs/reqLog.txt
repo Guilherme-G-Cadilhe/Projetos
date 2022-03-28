@@ -187,3 +187,4 @@
 2022-03-28	16:54	 002cb872-0900-487c-b4a1-1f736371e80e	POST	http://localhost:3000	/auth
 2022-03-28	16:54	 86ffc0d7-d2e2-43a6-80f2-00a027ce58d9	OPTIONS	http://localhost:3000	/auth
 2022-03-28	16:54	 86d0c11f-9aa1-46aa-bc3f-1f20860ecf20	POST	http://localhost:3000	/auth
+2022-03-28	17:59	 e05240c6-7e6d-47b6-a4be-4e68a04e0070	POST	undefined	/auth
