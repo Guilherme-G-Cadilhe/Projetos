@@ -11,6 +11,13 @@ import LinkPage from './components/LinkPage';
 import RequireAuth from './components/RequireAuth';
 import { Routes, Route } from 'react-router-dom'
 
+const ROLES = {
+  'User': "2001",
+  'Editor': "1984",
+  'Admin': "5150"
+}
+
+
 function App() {
 
   return (
@@ -22,23 +29,23 @@ function App() {
         <Route path="linkpage" element={<LinkPage />} />
         <Route path="unauthorized" element={<Unauthorized />} />
 
-        {/* we want to protect these routes
-   <Route element={<RequireAuth allowedRoles={[ROLES.User]} />}>
-     <Route path="/" element={<Home />} />
-   </Route>
+        {/* we want to protect these routes */}
+        <Route element={<RequireAuth allowedRoles={[ROLES.User]} />}>
+          <Route path="/" element={<Home />} />
+        </Route>
 
-   <Route element={<RequireAuth allowedRoles={[ROLES.Editor]} />}>
-     <Route path="editor" element={<Editor />} />
-   </Route>
+        <Route element={<RequireAuth allowedRoles={[ROLES.Editor]} />}>
+          <Route path="editor" element={<Editor />} />
+        </Route>
 
 
-   <Route element={<RequireAuth allowedRoles={[ROLES.Admin]} />}>
-     <Route path="admin" element={<Admin />} />
-   </Route>
+        <Route element={<RequireAuth allowedRoles={[ROLES.Admin]} />}>
+          <Route path="admin" element={<Admin />} />
+        </Route>
 
-   <Route element={<RequireAuth allowedRoles={[ROLES.Editor, ROLES.Admin]} />}>
-     <Route path="lounge" element={<Lounge />} />
-   </Route> */}
+        <Route element={<RequireAuth allowedRoles={[ROLES.Editor, ROLES.Admin, ROLES.User]} />}>
+          <Route path="lounge" element={<Lounge />} />
+        </Route>
 
         {/* catch all */}
         <Route path="*" element={<Missing />} />

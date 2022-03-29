@@ -6,7 +6,8 @@ import axios from '../api/axios';
 const LOGIN_URL = '/auth';
 
 export const Login = () => {
-  const { setAuth } = useAuth
+  const { setAuth } = useAuth()
+
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -36,15 +37,18 @@ export const Login = () => {
           headers: { 'Content-Type': 'application/json' },
           withCredentials: true
         });
-      console.log('response', response?.data)
-      const accessToken = response?.data?.accessToken;
-      const roles = response?.data?.roles
-      setAuth({ user, pwd, roles, accessToken });
+
+      const acessToken = response?.data?.acessToken;
+      const roles = [response?.data?.roles]
+      setAuth({ user, pwd, roles, acessToken });
+
       setUser('');
       setPwd('');
       navigate(from, { replace: true });
     } catch (err) {
       if (!err?.response) {
+        console.log('err', err)
+        console.log('"teste" :>> ', "teste");
         setErrMsg('Sem Resposta do Servidor');
       } else if (err.response?.status === 400) {
         setErrMsg('Falta Usuário ou Senha');

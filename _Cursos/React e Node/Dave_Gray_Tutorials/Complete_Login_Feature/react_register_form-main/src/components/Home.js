@@ -23,7 +23,7 @@ const Home = () => {
       <br />
       <Link to="/admin">Vá para a página de Admin</Link>
       <br />
-      <Link to="/lounge">Vá para a Recreaçãor</Link>
+      <Link to="/lounge">Vá para a Recreação</Link>
       <br />
       <Link to="/linkpage">Vá para a página de Links</Link>
       <div className="flexGrow">
