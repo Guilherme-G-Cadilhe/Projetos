@@ -8,9 +8,6 @@ const RequireAuth = ({ allowedRoles }) => {
 
   return (
     auth.roles.find(role => {
-      console.log('allowedRoles', allowedRoles)
-      console.log('role', role)
-      console.log('allowedRoles?.includes(role)', allowedRoles?.includes(role))
       return allowedRoles?.includes(role)
     })
       ? <Outlet />
