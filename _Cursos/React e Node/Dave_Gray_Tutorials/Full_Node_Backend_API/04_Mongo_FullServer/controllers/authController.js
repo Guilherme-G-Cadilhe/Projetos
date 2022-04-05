@@ -38,7 +38,7 @@ const handleLogin = async function (req, res) {
     //Adicionar opção extra 'Secure: true' para dominios em produção e chrome, mas remover se for testar em aplicativos tipo Postman o refresh token cookie.
     //Caso queira usar o postman com secure true, tem q adicionar manualmente o "Cookie" no Header de envio pra função de refresh.
     res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 })
-    res.json({ 'acessToken': `${acessToken}`, 'roles': `${roles}` })
+    res.json({ 'accessToken': `${acessToken}`, 'roles': `${roles}` })
   } else {
     res.sendStatus(401);
   }

@@ -56,6 +56,7 @@ app.use('/logout', require('./routes/api/logout'));
 
 app.use(verifyJWT);//Todas rotas abaixo daqui vão validar o JWT no começo, sempre.
 app.use('/employees', require('./routes/api/employees'));
+app.use('/users', require('./routes/api/users'));
 
 
 // Rota padrão para qualquer uma que não for achada ( página de erro 404 )

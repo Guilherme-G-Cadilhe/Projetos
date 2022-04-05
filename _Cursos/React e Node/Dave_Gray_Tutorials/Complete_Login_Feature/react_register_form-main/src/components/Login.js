@@ -38,9 +38,9 @@ export const Login = () => {
           withCredentials: true
         });
 
-      const acessToken = response?.data?.acessToken;
+      const accessToken = response?.data?.accessToken;
       const roles = [response?.data?.roles]
-      setAuth({ user, pwd, roles, acessToken });
+      setAuth({ user, pwd, roles, accessToken });
 
       setUser('');
       setPwd('');
@@ -48,7 +48,6 @@ export const Login = () => {
     } catch (err) {
       if (!err?.response) {
         console.log('err', err)
-        console.log('"teste" :>> ', "teste");
         setErrMsg('Sem Resposta do Servidor');
       } else if (err.response?.status === 400) {
         setErrMsg('Falta Usuário ou Senha');
