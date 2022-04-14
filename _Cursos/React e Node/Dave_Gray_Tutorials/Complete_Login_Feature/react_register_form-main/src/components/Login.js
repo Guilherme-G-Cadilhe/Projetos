@@ -6,7 +6,7 @@ import axios from '../api/axios';
 const LOGIN_URL = '/auth';
 
 export const Login = () => {
-  const { setAuth } = useAuth()
+  const { setAuth, persist, setPersist } = useAuth()
 
 
   const navigate = useNavigate();
@@ -61,6 +61,13 @@ export const Login = () => {
 
   }
 
+  const togglePersist = () => {
+    setPersist(prev => !prev)
+  }
+
+  useEffect(() => {
+    localStorage.setItem('persistReactLogin', persist)
+  }, [persist])
 
   return (
 
@@ -88,7 +95,15 @@ export const Login = () => {
           required
         />
         <button>Logar</button>
-
+        <div className="persistCheck">
+          <input
+            type="checkbox"
+            id="persist"
+            onChange={togglePersist}
+            checked={persist}
+          />
+          <label htmlFor="persist">Confiar nesse dispositivo.</label>
+        </div>
       </form>
       <p>
         Precisa de uma conta?<br />
