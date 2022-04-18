@@ -14,7 +14,7 @@ const handleLogout = async function (req, res) {
     return res.sendStatus(204);
   }
   // Deletar RefreshToken no DB
-  foundUser.refreshToken = '';
+  foundUser.refreshToken = foundUser.refreshToken.filter(refreshT => refreshT !== refreshToken);
   const result = await foundUser.save()
 
   //Deletar cookies tem q ser enviado as mesmas opções da criação com exceção de maxAge

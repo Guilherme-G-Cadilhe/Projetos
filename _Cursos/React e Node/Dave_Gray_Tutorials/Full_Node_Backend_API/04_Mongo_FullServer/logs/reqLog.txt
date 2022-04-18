@@ -350,3 +350,17 @@
 2022-04-14	11:02	 3fa475c0-6e70-44ad-87f9-c60b5702fcc7	GET	http://localhost:3000	/logout
 2022-04-14	11:03	 20212ffb-d371-4520-b627-3b6b7f873694	OPTIONS	http://localhost:3000	/auth
 2022-04-14	11:03	 3a7bb687-1ff7-4b99-91ab-cfdce0b33327	POST	http://localhost:3000	/auth
+2022-04-18	10:02	 e7eb2e74-3be4-488e-8f52-90556327a66c	OPTIONS	http://localhost:3000	/auth
+2022-04-18	10:02	 efe8720a-9082-4e7e-8fa6-9c795ec41b92	POST	http://localhost:3000	/auth
+2022-04-18	10:02	 2f844ab6-8abe-44a9-9de3-02d8552bf597	OPTIONS	http://localhost:3000	/users
+2022-04-18	10:02	 23459be5-3181-453a-b3b1-ae7d4504793a	GET	http://localhost:3000	/users
+2022-04-18	10:03	 af7f94a1-e767-414e-9a93-aa44aac7c1ab	GET	http://localhost:3000	/logout
+2022-04-18	10:03	 f82a4437-5e96-4653-8ed9-0208ef458abd	GET	http://localhost:3000	/refresh
+2022-04-18	10:03	 281d407d-ad8f-4088-91e4-08fea4f3c264	OPTIONS	http://localhost:3000	/auth
+2022-04-18	10:03	 37047c5f-9b50-4495-b7e2-23cb2e8b06d3	POST	http://localhost:3000	/auth
+2022-04-18	10:14	 fdbe163a-ab9e-4417-8e8d-c95b0162818e	OPTIONS	http://localhost:3000	/users
+2022-04-18	10:14	 7f1e57fe-1969-4297-99bc-ab04c7296202	GET	http://localhost:3000	/users
+2022-04-18	10:14	 7aa3992a-b67c-4c3e-be59-1ee1f2d0f1e1	GET	http://localhost:3000	/refresh
+2022-04-18	10:14	 29bf3bfe-4b93-4e3f-ae7e-f162437be013	GET	http://localhost:3000	/users
+2022-04-18	10:15	 9b00d224-ae71-4ee6-8f8c-70d10cb65cf7	GET	undefined	/users
+2022-04-18	10:15	 82fd8321-e827-41ab-81f5-e01b8979db84	GET	undefined	/favicon.ico

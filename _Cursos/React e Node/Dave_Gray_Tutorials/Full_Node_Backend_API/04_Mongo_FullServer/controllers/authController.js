@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 
 
 const handleLogin = async function (req, res) {
-
+  const cookies = req.cookies;
   const { user, pwd } = req.body;
   if (!user || !pwd) return res.status(400).json({ 'message': 'Username e Password são obrigatórios' })
 
@@ -25,7 +25,7 @@ const handleLogin = async function (req, res) {
       process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: '120s' }
     );
-    const refreshToken = jwt.sign(
+    const newRefreshToken = jwt.sign(
       {
         "username": foundUser.username
       },
@@ -33,8 +33,23 @@ const handleLogin = async function (req, res) {
       { expiresIn: '1h' } // '1d' = 1 day, '1h' = 1 hour
     );
 
+    let newRefreshTokenArray = !cookies?.jwt ? foundUser.refreshToken : foundUser.refreshToken.filter(refreshT => refreshT !== cookies.jwt);
+    if (cookies?.jwt) {
+
+      const refreshToken = cookies.jwt;
+      const foundToken = await User.findOne({ refreshToken }).exec()
+
+      //Detectou reutilização de Refresh Token
+      if (!foundToken) {
+        //Tentativa de reutilização de refresh token no login
+        //Limpa TODOS os refresh tokens anteriores
+        newRefreshTokenArray = [];
+      }
+      res.clearCookie('jwt', { httpOnly: true, sameSite: 'None', secure: true });
+    }
+
     // Salvar RefreshToken com o usuário atual
-    foundUser.refreshToken = refreshToken;
+    foundUser.refreshToken = [...newRefreshTokenArray, newRefreshToken];
     const result = await foundUser.save()
 
     // Seta cookies em HTTPOnly e não fica disponivel para q o JS o capture e roube
@@ -42,8 +57,10 @@ const handleLogin = async function (req, res) {
     // Para permitir utilizar cookies entre dominio, colocar = sameSite: 'None'
     //Adicionar opção extra 'Secure: true' para dominios em produção e chrome, mas remover se for testar em aplicativos tipo Postman o refresh token cookie.
     //Caso queira usar o postman com secure true, tem q adicionar manualmente o "Cookie" no Header de envio pra função de refresh.
-    res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 })
+    res.cookie('jwt', newRefreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 })
+
     res.json({ 'accessToken': `${acessToken}`, 'roles': `${roles}` })
+
   } else {
     res.sendStatus(401);
   }
