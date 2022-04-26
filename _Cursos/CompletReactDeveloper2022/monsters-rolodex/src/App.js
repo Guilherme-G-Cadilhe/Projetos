@@ -20,20 +20,25 @@ class App extends Component {
     // .then(killer => this.setState({killers: killer}))
     this.setState({
       killers: killers,
-    });
+    },
+      () => {
+        console.log("Mounted and Loaded")
+      });
   }
+
+  onSearchChange = (e) => this.setState({ searchField: e.target.value })
 
   render() {
 
-    const {killers, searchField} =  this.state
+    const { killers, searchField } = this.state
     const filteredKillers = killers.filter(killer => killer.name.toLowerCase().includes(searchField.toLowerCase()))
 
     return (
       <div className="App">
-        <input
+        <input className='search-box'
           type="search"
           placeholder="Search Killer"
-          onChange={(e) => this.setState({searchField: e.target.value})}
+          onChange={this.onSearchChange}
         />
         <CardList killers={filteredKillers} />
       </div>
