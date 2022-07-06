@@ -10,27 +10,44 @@ import { killers } from "./data/killersList";
 
 const App = () => {
   const [searchField, setSearchField] = useState('');
-  const [monsters, setMonsters] = useState([]);
+  const [title, setTitle] = useState('');
+  const [killerss, setKillerss] = useState([]);
+  const [filteredKillers, setFilteredKillers] = useState(killerss);
 
   useEffect(() => {
     // fetch(`${process.env.REACT_APP_KILLERS}`,{ method: "GET", mode: 'cors', headers: { 'Content-Type': 'application/json',}})
     // .then(response => response.json())
     // .then(killer => this.setState({killers: killer}))
-    setMonsters(killers);
+    setKillerss(killers);
   }, [])
 
-  const onSearchChange = (e) => setSearchField(e.target.value);
-  console.log('searchField', searchField);
+  useEffect(() => {
+    const newFilteredKillers = killerss.filter(killer => killer.name.toLowerCase().includes(searchField.toLowerCase()));
 
-  const filteredKillers = killers.filter(killer => killer.name.toLowerCase().includes(searchField.toLowerCase()));
+    setFilteredKillers(newFilteredKillers);
+
+    console.log("evento de filtro")
+
+  }, [killerss, searchField])
+
+  const onSearchChange = (e) => setSearchField(e.target.value);
+  const onTitleChange = (e) => setTitle(e.target.value);
+  console.log('render');
+
+
 
   return (
     <div className="App">
-      <h1 className="app-title">Dead by Daylight Killers</h1>
+      <h1 className="app-title">{title}</h1>
       <SearchBox
         onChangeHandler={onSearchChange}
         placeholder="Search Killer"
         className="monsters-search-box" />
+      <br />
+      <SearchBox
+        onChangeHandler={onTitleChange}
+        placeholder="Title"
+        className="title-search-box" />
       <CardList killers={filteredKillers} />
     </div>
   );
