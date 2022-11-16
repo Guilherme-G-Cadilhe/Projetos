@@ -1,16 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import "./App.css";
 
-import CardList from "./components/card-list/card-list-component.jsx";
-import SearchBox from "./components/search-box/search-box-component.jsx";
+import CardList from "./components/card-list/card-list-component";
+import SearchBox from "./components/search-box/search-box-component";
 
 import { killers } from "./data/killersList";
 
 //import { CardList } from "./components/card-list/card-list-component.jsx";
 
 const App = () => {
-  const [searchField, setSearchField] = useState('');
-  const [title, setTitle] = useState('');
+  const [searchField, setSearchField] = useState("");
+  const [title, setTitle] = useState("");
   const [killerss, setKillerss] = useState([]);
   const [filteredKillers, setFilteredKillers] = useState(killerss);
 
@@ -19,39 +19,32 @@ const App = () => {
     // .then(response => response.json())
     // .then(killer => this.setState({killers: killer}))
     setKillerss(killers);
-  }, [])
+  }, []);
 
   useEffect(() => {
-    const newFilteredKillers = killerss.filter(killer => killer.name.toLowerCase().includes(searchField.toLowerCase()));
+    const newFilteredKillers = killerss.filter((killer) =>
+      killer.name.toLowerCase().includes(searchField.toLowerCase())
+    );
 
     setFilteredKillers(newFilteredKillers);
 
-    console.log("evento de filtro")
-
-  }, [killerss, searchField])
+    console.log("evento de filtro");
+  }, [killerss, searchField]);
 
   const onSearchChange = (e) => setSearchField(e.target.value);
   const onTitleChange = (e) => setTitle(e.target.value);
-  console.log('render');
-
-
+  console.log("render");
 
   return (
     <div className="App">
       <h1 className="app-title">{title}</h1>
-      <SearchBox
-        onChangeHandler={onSearchChange}
-        placeholder="Search Killer"
-        className="monsters-search-box" />
+      <SearchBox onChangeHandler={onSearchChange} placeholder="Search Killer" className="monsters-search-box" />
       <br />
-      <SearchBox
-        onChangeHandler={onTitleChange}
-        placeholder="Title"
-        className="title-search-box" />
+      <SearchBox onChangeHandler={onTitleChange} placeholder="Title" className="title-search-box" />
       <CardList killers={filteredKillers} />
     </div>
   );
-}
+};
 //import { Component } from "react";
 
 // class App extends Component {
