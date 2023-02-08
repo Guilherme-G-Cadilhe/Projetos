@@ -748,3 +748,5 @@ export const killers = [
     perks: ["Hoarder", "Oppression", "CoupDeGrace"],
   },
 ];
+
+export default killers

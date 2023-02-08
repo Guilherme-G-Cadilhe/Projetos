@@ -1,28 +1,39 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, ChangeEvent } from "react";
 import "./App.css";
 
 import CardList from "./components/card-list/card-list-component";
 import SearchBox from "./components/search-box/search-box-component";
 
-import { killers } from "./data/killersList";
+import { anyKillers } from "./utils/data.utils";
 
-//import { CardList } from "./components/card-list/card-list-component.jsx";
+import { getData } from "./utils/data.utils";
+
+export type Killer = {
+  _id: string;
+  name: string;
+  alias: string;
+  icon: {
+    preview_portrait: string;
+  };
+};
 
 const App = () => {
   const [searchField, setSearchField] = useState("");
   const [title, setTitle] = useState("");
-  const [killerss, setKillerss] = useState([]);
+  const [killerss, setKillerss] = useState<Killer[]>([]);
   const [filteredKillers, setFilteredKillers] = useState(killerss);
 
   useEffect(() => {
-    // fetch(`${process.env.REACT_APP_KILLERS}`,{ method: "GET", mode: 'cors', headers: { 'Content-Type': 'application/json',}})
-    // .then(response => response.json())
-    // .then(killer => this.setState({killers: killer}))
-    setKillerss(killers);
+    // const fetchKillers = async () => {
+    //   const killers = await getData<Killer[]>(`${process.env.REACT_APP_KILLERS}`);
+    //   setKillerss(killers);
+    // };
+    // fetchKillers();
+    setKillerss(anyKillers);
   }, []);
 
   useEffect(() => {
-    const newFilteredKillers = killerss.filter((killer) =>
+    const newFilteredKillers = killerss.filter((killer: any) =>
       killer.name.toLowerCase().includes(searchField.toLowerCase())
     );
 
@@ -31,8 +42,8 @@ const App = () => {
     console.log("evento de filtro");
   }, [killerss, searchField]);
 
-  const onSearchChange = (e) => setSearchField(e.target.value);
-  const onTitleChange = (e) => setTitle(e.target.value);
+  const onSearchChange = (e: ChangeEvent<HTMLInputElement>): void => setSearchField(e.target.value);
+  const onTitleChange = (e: ChangeEvent<HTMLInputElement>): void => setTitle(e.target.value);
   console.log("render");
 
   return (
