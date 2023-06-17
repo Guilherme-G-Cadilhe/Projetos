@@ -15,7 +15,7 @@
 
 ---
 <h2 align="center">
-<img width="100" src="https://cdn.pixilart.com/photos/large/bc43803dd8b5d8c.png"> Projetos, Testes e Exercícios de Front-End.
+<img width="100" src="https://cdn.pixilart.com/photos/large/bc43803dd8b5d8c.png"> Full Projects, Tests and Exercises.
   </h2>
 
 
